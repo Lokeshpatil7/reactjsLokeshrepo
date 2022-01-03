@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.my-class{
+  background-color: rgb(0, 255, 55);
+}
+
+.my-app{
+  color: rgb(10, 248, 169);
+  background-color: rgb(10, 10, 9);
+}
+
+.my-true-div{
+  background-color: green;
+}
+
+.my-false-div{
+  background-color: red;
+}
