@@ -1,0 +1,38 @@
+$primary-color: #5d5c61;
+$secondary-color: #379683;
+$info-color: #7395ae;
+$default-color: #557a95;
+$success-color: #b1a296;
+$danger-color: #501b1d;
+
+body {
+  background-color: $default-color;
+}
+
+@mixin theme($theme-color: $primary-color) {
+  background-color: $theme-color;
+  width: 20%;
+  position: absolute;
+  margin: 5px;
+  border: solid 2px$default-color;
+}
+
+.primary {
+  @include theme($primary-color);
+  right: 0;
+  //   background-color: $primary-color;
+  //   width: 20%;
+  //   position: absolute;
+  //   margin: 5px;
+  //   border: solid 2px$default-color;
+}
+
+.secondary {
+  @include theme($secondary-color);
+  left: 0;
+  //   background-color: $secondary-color;
+  //   width: 20%;
+  //   position: absolute;
+  //   margin: 5px;
+  //   border: solid 2px$default-color;
+}
